@@ -1,0 +1,19 @@
+header:
+  license:
+    spdx-id: Apache-2.0
+    copyright-owner: "Telford Tech organisers <telfordtech.dev>"
+    copyright-year: 2024
+  paths-ignore:
+    - dist
+    - tmp
+    - LICENSE
+    - .*
+    - "go.*"
+    - "**/*.{json,md,yml,yaml}"
+    - "**/.gitkeep"
+    - "**/*.svelte"
+  comment: on-failure
+
+dependency:
+  files:
+    - package.json # If this is a npm project.
